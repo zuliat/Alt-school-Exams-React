@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: grey;
+}
+.App {
+  text-align: center;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 400px;
+}
+.container {
+  margin-top: 60px;
+}
+.header {
+  font-weight: 700;
+  color: aliceblue;
+  font-size: 50px;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  background: whitesmoke;
+  color: gray;
+  font-size: 25px;
+  margin: 20px;
+  font-weight: 400;
+}
+.btn:hover {
+  background: goldenrod;
+  border: 2px solid greenyellow;
+  cursor: pointer;
+}
+
+.links {
+  padding: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: whitesmoke;
+  
+  
+}
+.links:hover {
+  background: goldenrod;
+  border: 2px solid greenyellow;
+  cursor: pointer;
+}
+
+.home-container{
+  font-size: 60px;
+  margin-bottom: 30px;
+}
